@@ -1,0 +1,27 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: Alarm1
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Alarm1"
+- Name: Alarm2
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Alarm2"
+- Name: Alarm3
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Alarm3"

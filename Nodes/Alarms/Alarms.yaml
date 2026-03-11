@@ -1,0 +1,238 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: DigitalAlarm1
+  Id: g=e1d5e7f8c7e4318e864e8936c61d4751
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=ecba4693a7e495bd2454012551f69cc1
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=00de953fa0d683bfea3cf5b75d9b76df
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=56e72d677b8604cbc94e8242c8d725ab
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarm1"
+      Children:
+      - Name: Mode
+        Id: g=48e785e3b823c7d7087d61678487ede1
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=932941db1a40c164f8e8353425dc086e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=18;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=13d46eeaeabfb83e8c5d2f3290e1dcde
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=16df2ea55246a8febf17ba2830b2a5c6
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Active
+    Id: g=81bef7473fa6ab7f375bf87632407f34
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+- Name: DigitalAlarm2
+  Id: g=8d8b8b187ff25eca9d419ecf93fdd7c6
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=f4ca7d74249b609d11882bd7e89fef1f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=e152c77513bbc066f668af77dd7f4e22
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=c46fcb7133baa58da06a55218cb40902
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarm2"
+      Children:
+      - Name: Mode
+        Id: g=1fdc5ab80fe6e285f19b5a8c0dcb4c6f
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7aada8237055d947d1940782169f53ef
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=18;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=361864f313a25594b5a8b683442888f2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=49a9db3b03ae5ffdf46b4e1b39f712fd
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Active
+    Id: g=281a2bfdd9e4c485c9cca6b19f7bb7e5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+- Name: DigitalAlarm3
+  Id: g=1f09daf511bf9961f1864bba497cfc5d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d02d3a29778c233a2e55b4f6c87c76ec
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=76dfe0ecae84b3cd005d651587f81049
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=9388aa47c8a9cb2faa544c50f5ab5499
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Alarm3"
+      Children:
+      - Name: Mode
+        Id: g=efed058190a426dc1708ff97ca61a2c6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=4042293ee8c748605d6059a7810e763a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=18;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=8a2a47b81423159b508ad3bccaf92c4d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=cd480b0d32e205c222aa055ef651c73c
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Active
+    Id: g=54b11df57bb8968dea512f1f72d48c5d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
